@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Videos_personal_2</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- activity_main.xml strings  -->
+    <string name="button_modify">Modify List</string>
+    <string name="instruction_1">Click item to</string>
+    <string name="instruction_2">play video</string>
+
+    <!-- activity_modify_list.xml strings  -->
+    <string name="button_delete">Delete</string>
+    <string name="button_add"> Add </string>
+    <string name ="delete_modify_list_entry"> id#</string>
+    <!-- end   activity_modify_list.xml strings -->
+
+    <!-- activity_adding_videos.xml strings  -->
+    <string name="add_video_instruction">click video to add to list</string>
+
+</resources>

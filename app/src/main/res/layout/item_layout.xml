@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--  Sets list columns in   activity_main.xml & activity_modify_list.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewID"
+        android:textSize="22sp"
+        android:paddingRight="@dimen/item_id_padding"
+        android:paddingEnd="@dimen/item_id_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVideoName"
+        android:textSize="22sp"/>
+
+</LinearLayout>

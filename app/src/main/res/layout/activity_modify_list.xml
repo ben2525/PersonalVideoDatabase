@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyListActivity">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_delete"
+        android:id="@+id/buttonDelete"
+        android:onClick="onClick_buttonDelete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        android:id="@+id/buttonAdd"
+        android:onClick="onClick_buttonAdd"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/buttonDelete"
+        android:layout_toLeftOf="@id/buttonDelete"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id ="@+id/buttonModifyInfo"
+        android:layout_toStartOf="@id/buttonAdd"
+        android:layout_toLeftOf="@id/buttonAdd"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListIDEntry"
+        android:hint="@string/delete_modify_list_entry"
+        android:ems="3"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="3dp"
+        android:inputType="number"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modifyListView"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>
