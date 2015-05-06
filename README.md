@@ -6,3 +6,4 @@ The main files of interest are in app/src/main
   * java/com/example/ben/videos_personal_3 for class files
   * res/layout for xml layout files
   * res/values/strings.xml for string resources
+  * AndroidManifest.xml for Manifest file
